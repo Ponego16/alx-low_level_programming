@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0
  */
 
 int main(void)
 {
 	int lowerCase = 'a';
-	int upperCase = 'Z';
+	int upperCase = 'A';
 
 	while (lowerCase <= 'z')
 	{
