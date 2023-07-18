@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - prints the last digit of a randomly generated number and whether it is greater than 5. less than 6. or 0.
+ * main - prints the last digit of a randomly generated number
+ * and whether it is greater than 5. less than 6. or 0.
  *
  * Return: Always 0
  */
@@ -12,10 +13,10 @@ int main(void)
 	int lastnum;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastnum = n %10;
-	if(lastnum > 5)
+	lastnum = n % 10;
+	if (lastnum > 5)
 	{
-		printf("Last digits of %d is %d and is greater than 5\n" , n, lastnum);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastnum);
 	}
 	else if (lastnum == 0)
 	{
