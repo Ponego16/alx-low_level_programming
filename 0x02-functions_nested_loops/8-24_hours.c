@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* Jack_bauer - prints every minute of the day of Jack bauer
+* jack_bauer - prints every minute of the day of Jack bauer
 *
 * Return: ...
 */
@@ -12,7 +12,7 @@ for (a = 0; a <= 2; a++)
 {
 for (b = 0; b <= 9; b++)
 {
-if ((a <= 1 && b <= 9) || (a <= 2 && b <=3))
+if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 {
 for (c = 0; c <= 5; c++)
 {
